@@ -1,0 +1,52 @@
+.main {
+    width: 1440px;
+    margin: auto;
+    padding: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.story {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.container2 {
+    display: flex;
+    
+}
+
+.title-2 {
+    margin-right: 20px;
+}
+
+.p-2 {
+    align-self: center;
+}
+
+@media (max-width: 1300px) {
+    .main {
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .main {
+    width: 480px;
+    margin: auto;
+    padding: auto;
+    }
+}
